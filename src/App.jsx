@@ -1,4 +1,4 @@
-import IconSuccess from "../assets/images/icon-success.svg";
+import iconListSrc from "../assets/images/icon-list.svg";
 function App() {
   return (
     // bg-black h-screen
@@ -8,11 +8,21 @@ function App() {
         <div className="px-4 py-6 space-y-5">
           <h2 className="font-bold text-xl">Stay Updated!</h2>
           <p>Join 6000+ product managers receiving monthly updates on:</p>
-          <ul>
-            <p>Product discovery and building what matters</p>
-            <p>Measuring to ensure updates are a success</p>
-            <p>And much more!</p>
-          </ul>
+          <div className="text-[15px] space-y-2">
+            <div className="flex gap-2">
+              <img src={iconListSrc} />
+              <p>Product discovery and building what matters</p>
+            </div>
+            <div className="flex gap-2">
+              <img src={iconListSrc} />
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div className="flex gap-2">
+              <img src={iconListSrc} />
+              <p>And much more!</p>
+            </div>
+          </div>
+
           <div className="flex flex-col">
             <label className="font-semibold  text-[13px]" htmlFor="emailInput">
               Email Address *
