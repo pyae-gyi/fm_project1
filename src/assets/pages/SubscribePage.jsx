@@ -9,7 +9,7 @@ function SubscribePage() {
       <div className="md:w-1/2 md:self-stretch max-md:flex-[40]">
         <img
           src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/jake-paul-mike-tyson-65e9f44a67446.png?crop=1.00xw:1.00xh;0,0&resize=900:*"
-          className="h-full object-cover  md:rounded-2xl"
+          className="h-full object-cover  rounded-2xl"
         />
       </div>
       <div className="px-4 py-6 space-y-5 md:w-1/2 max-md:flex-[60]">
