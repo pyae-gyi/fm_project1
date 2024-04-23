@@ -36,10 +36,10 @@ function App() {
               type="email"
               id="emailInput"
               placeholder="Type your email"
-              className="focus:outline-none border rounded py-2 px-1"
+              className="focus:outline-none border rounded p-3"
             />
           </div>
-          <button className="py-2 px-4 bg-black text-white rounded w-full text-center">
+          <button className="py-3 bg-black text-white rounded w-full text-center">
             Subscribe to monthly newsletter
           </button>
         </div>
