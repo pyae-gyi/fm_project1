@@ -4,14 +4,14 @@ function App() {
     // bg-black h-screen
     <section className="text-base h-screen md:justify-center md:items-center md:flex">
       <div className="flex flex-col h-full  md:h-3/5 md:items-center overflow-hidden md:max-w-3xl md:flex-row-reverse md:gap-5 bg-red-200  md:rounded-2xl">
-        <div className="md:w-1/2 md:self-stretch max-md:flex-[45]">
+        <div className="md:w-1/2 md:self-stretch max-md:flex-[40]">
           <img
             src="https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/jake-paul-mike-tyson-65e9f44a67446.png?crop=1.00xw:1.00xh;0,0&resize=900:*"
             className="h-full object-cover  "
           />
         </div>
-        <div className="px-4 py-6 space-y-5 md:w-1/2 max-md:flex-[55]">
-          <h2 className="font-bold text-xl">Stay Updated!</h2>
+        <div className="px-4 py-6 space-y-5 md:w-1/2 max-md:flex-[60]">
+          <h2 className="font-bold text-3xl">Stay Updated!</h2>
           <p>Join 6000+ product managers receiving monthly updates on:</p>
           <div className="text-[15px] space-y-2">
             <div className="flex gap-2">
