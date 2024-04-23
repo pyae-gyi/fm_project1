@@ -2,7 +2,7 @@ import iconListSrc from "../assets/images/icon-list.svg";
 function App() {
   return (
     // bg-black h-screen
-    <section className="text-sm h-screen md:justify-center md:items-center md:flex">
+    <section className="text-base h-screen md:justify-center md:items-center md:flex">
       <div className="flex flex-col h-full  md:h-3/5 md:items-center overflow-hidden md:max-w-3xl md:flex-row-reverse md:gap-5 bg-red-200  md:rounded-2xl">
         <div className="md:w-1/2 md:self-stretch max-md:flex-[45]">
           <img
@@ -36,10 +36,10 @@ function App() {
               type="email"
               id="emailInput"
               placeholder="Type your email"
-              className="focus:outline-none border rounded md:p-3 max-md:p-5"
+              className="focus:outline-none border rounded md:p-3 max-md:p-4"
             />
           </div>
-          <button className="md:p-3 max-md:p-5 bg-black text-white rounded w-full text-center">
+          <button className="p-3 bg-black text-white rounded w-full text-center">
             Subscribe to monthly newsletter
           </button>
         </div>
