@@ -2,7 +2,7 @@ import iconListSrc from "../assets/images/icon-list.svg";
 function App() {
   return (
     // bg-black h-screen
-    <section className="text-sm md:h-screen md:justify-center md:items-center md:flex">
+    <section className="text-sm h-screen md:justify-center md:items-center md:flex">
       <div className="flex flex-col md:h-3/5 md:items-center overflow-hidden md:max-w-3xl md:flex-row-reverse md:gap-5 bg-red-200  md:rounded-2xl">
         <div className="md:w-1/2 md:self-stretch">
           <img
